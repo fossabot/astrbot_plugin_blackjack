@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '**/*.py'
   workflow_dispatch:  # 允许手动触发
 
 permissions:

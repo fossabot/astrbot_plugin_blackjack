@@ -73,7 +73,7 @@ main:
             - name: 同步到GitHub
               image: tencentcom/git-sync 
               settings:
-                target_url: https://github.com/xiaomizhoubaobei/astrbot_plugin_beta_dxl_bert_vits.git
+                target_url: https://github.com/xiaomizhoubaobei/astrbot_plugin_blackjack.git
                 auth_type: https
                 username: ${GIT_USERNAME} 
                 password: ${GIT_ACCESS_TOKEN}
